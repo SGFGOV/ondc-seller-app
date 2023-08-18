@@ -67,3 +67,4 @@ typings/
 workspace.xml
 
 package-lock.json
+**/dist/**/*

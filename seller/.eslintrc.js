@@ -4,7 +4,10 @@ module.exports = {
         node: true,
         mocha:true,
     },
-    extends: 'eslint:recommended',
+    extends: ['eslint:recommended',
+    "eslint-config-prettier",
+    "google",
+    "prettier"],
     parserOptions: {
         ecmaVersion: 13,
         sourceType: 'module',
